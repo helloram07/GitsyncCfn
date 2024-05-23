@@ -10,3 +10,5 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       CidrBlock: 10.0.0.1/16
+  S3Buck:
+    Type: AWS::S3::Bucket
